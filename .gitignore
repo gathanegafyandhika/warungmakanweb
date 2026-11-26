@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+!.env.production.example
+
+# next.js
+.next
+.vercel
+
+# turbo
+.turbo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# typescript
+*.tsbuildinfo
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Local / hidden machine files
+*.local
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
